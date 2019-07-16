@@ -1,0 +1,299 @@
+/* GLOBAL STYLES
+-------------------------------------------------- */
+/* Padding below the footer and lighter body text */
+
+body {
+  padding-top: 3rem;
+  padding-bottom: 3rem;
+  color: #5a5a5a;
+}
+.addr{
+    height:50px; 
+    width:540px;
+    background-color: white;
+}
+.explore{
+    margin-top:50px;
+}
+.search{     
+  height:50px; 
+  width:100px;
+  border-radius: 2px;
+  background-color: green;
+  margin-left:10px;
+  position:absolute;     
+  top:55px;
+  left:540px;
+}
+
+
+/* CUSTOMIZE THE CAROUSEL
+-------------------------------------------------- */
+
+/* Carousel base class */
+.carousel {
+  margin-bottom: 4rem;
+}
+/* Since positioning the image, we need to help out the caption */
+.carousel-caption {
+  bottom: 3rem;
+  z-index: 10;
+}
+
+/* Declare heights because of positioning of img element */
+.carousel-item {
+  height: 32rem;
+}
+.carousel-item > img {
+  position: absolute;
+  top: 0;
+  left: 0;
+  min-width: 100%;
+  height: 32rem;
+}
+
+
+/* MARKETING CONTENT
+-------------------------------------------------- */
+
+/* Center align the text within the three columns below the carousel */
+.marketing .col-lg-4 {
+  margin-bottom: 1.5rem;
+  text-align: center;
+}
+.marketing h2 {
+  font-weight: 400;
+}
+.marketing .col-lg-4 p {
+  margin-right: .75rem;
+  margin-left: .75rem;
+}
+
+
+/* Featurettes
+------------------------- */
+
+.featurette-divider {
+  margin: 5rem 0; /* Space out the Bootstrap <hr> more */
+}
+
+/* Thin out the marketing headings */
+.featurette-heading {
+  font-weight: 300;
+  line-height: 1;
+  letter-spacing: -.05rem;
+}
+
+
+/* RESPONSIVE CSS
+-------------------------------------------------- */
+
+@media (min-width: 40em) {
+  /* Bump up size of carousel content */
+  .carousel-caption p {
+    margin-bottom: 1.25rem;
+    font-size: 1.25rem;
+    line-height: 1.4;
+  }
+
+  .featurette-heading {
+    font-size: 50px;
+  }
+}
+
+@media (min-width: 62em) {
+  .featurette-heading {
+    margin-top: 7rem;
+  }
+}
+
+.eh {
+    margin-top: 80px;
+}
+.eg {
+    padding: 72px 0px 88px;
+}
+.ef {
+    background-color:black;
+}
+.c5 {
+    padding: 0 80px;
+}
+.am {
+    margin: 0 auto;
+}
+.al {
+    min-width: 1024px;
+}
+.ak {
+    max-width: 1920px;
+}
+.aj {
+    box-sizing: border-box;
+}
+.d6 {
+    margin: 40px 0;
+}
+.d2 {
+    background-color:white;
+}
+.bt {
+    height: 1px;
+}
+.bk {
+    border: none;
+}
+user agent stylesheet
+hr {
+    display: block;
+    unicode-bidi: isolate;
+    margin-block-start: 0.5em;
+    margin-block-end: 0.5em;
+    margin-inline-start: auto;
+    margin-inline-end: auto;
+    overflow: hidden;
+    border-style: inset;
+    border-width: 1px;
+}
+.ej {
+    -webkit-box-align: start;
+    align-items: flex-start;
+}
+.ei {
+    flex: 2;
+}
+.c7 {
+    -webkit-box-pack: justify;
+    justify-content: space-between;
+}
+.bd {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    flex-direction: column;
+}
+.ba {
+    display: -webkit-box;
+    display: -moz-box;
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    display: flex;
+}
+div {
+    display: block;
+}
+.be {
+    flex: 1;
+}
+.dg {
+    margin-bottom: 16px;
+}
+.bx {
+    color: #FFFFFF;
+}
+.bi {
+    font-family:Regular;
+}
+.bh {
+    line-height: 24px;
+}
+.bg {
+    font-size: 16px;
+}
+.c6 {
+    margin-bottom: 24px;
+}
+.by {
+    font-family: UberMoveText-Medium;
+}
+.el {
+    margin-bottom: 0;
+}
+a {
+    text-decoration: none;
+    color: inherit;
+}
+a:-webkit-any-link {
+    color: -webkit-link;
+    cursor: pointer;
+    text-decoration: underline;
+}
+.by {
+    font-family: UberMoveText-Medium;
+}
+.bx {
+    color: #FFFFFF;
+}
+.bh {
+    line-height: 24px;
+}
+.bg {
+    font-size: 16px;
+}
+.b0 {
+    -webkit-font-smoothing: antialiased;
+}
+.bd {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    flex-direction: column;
+}
+.ej {
+    -webkit-box-align: start;
+    align-items: flex-start;
+}
+
+.ei {
+    flex: 2;
+}
+.c7 {
+    -webkit-box-pack: justify;
+    justify-content: space-between;
+}
+.cz {
+    line-height: 20px;
+}
+.cy {
+    font-size: 14px;
+}
+.bx {
+    color: #FFFFFF;
+}
+.bi {
+    font-family: UberMoveText-Regular;
+}
+/* .b1 {
+    moz-osx-font-smoothing: grayscale;
+} */
+.b0 {
+    -webkit-font-smoothing: antialiased;
+}
+.en {
+    margin-bottom: 40px;
+}
+.em {
+    height: 16px;
+}
+.bw {
+    width: 16px;
+}
+#footer{
+    margin-top:570px;
+}
+.mine{
+    width:20px;
+}
+.mine a{
+    width:0px;
+}
+.a{
+    text-decoration:none;   
+    font-family:cochin;
+    color:yellow;
+    font-size:20px;
+}
+.ic{
+    margin-left:10px;
+}
+a:hover{
+  cursor: pointer;
+}
