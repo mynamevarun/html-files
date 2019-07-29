@@ -1,0 +1,123 @@
+body{
+	background-color:black;
+	margin-top:none;
+}
+#lis{
+	font-size:20px;
+	width:20%;
+	font-weight:bold; 
+	padding-left:20px;
+}
+#mg{
+	padding-left:80px; 
+}
+.col1{
+	float:left;
+	width:35%;
+}
+.col2{
+	float:right;
+	width:15%;
+}
+.row1 ul{
+	background-color:silver; 
+	margin-top: 0px;
+	list-style:none; 
+	height:20px;
+	width:100%;
+	padding:25px;	
+	margin-left:0px; 
+}
+.row1 ul li a{
+	text-decoration:none;
+	color:black;
+	margin-left:20px;	
+	font-family:Bauhaus 93; 
+}
+.row1 ul li a:hover{
+	background-color:yellow;
+	text-decoration:underline;
+	color:blue;
+	transform:scale(2.1);  	
+}
+.row1 ul li{
+	display:inline-block;	
+}
+#add{
+	height:200px;
+	width:170px;
+	padding-top:20px;
+	padding-right:10px;
+	padding-left:15px;  
+}
+#hm{
+color:grey;
+padding-left:100px; 
+}
+#bd{
+font-weight:bold;
+font-size:20px;
+padding-left:100px;  
+}
+.row2{
+	float:left;
+}
+#bd1{
+	padding-top:20px; 
+}
+.row2 dl{
+	width:200px;
+	background-color:silver;
+	height:655px; 
+	margin-left:100px;  
+}
+.row2 dl dt{
+	font-style: italic;
+	padding-left:20px;  
+}
+.row2 dl dd{
+	padding-left:5px; 
+}
+.footer{
+	background-color:black;
+	margin-top: 100px;	
+}
+.footer ul{
+	display:inline-block;
+	width:15%;	
+}
+.footer ul li{
+ padding-left:30px;   
+}
+.footer ul li a{
+	text-decoration:none;
+	color:grey; 
+}
+#l1{
+   color:white;
+   list-style-type:none; 
+}
+#l2{
+   color:white;
+   list-style-type:none; 
+}
+#l3{
+   color:white;
+   list-style-type:none; 
+}
+#l4{
+   color:white;
+   list-style-type:none; 
+}
+#l5{
+   color:white;
+   list-style-type:none; 
+}
+.col  img {
+  margin-top: 8px;
+  padding-left:30px;
+  vertical-align: middle;
+  height:250px;
+  width:250px;
+  padding-top:10px;   
+}

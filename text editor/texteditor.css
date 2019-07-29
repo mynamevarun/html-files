@@ -1,0 +1,34 @@
+body{
+	border:2px solid black;
+	background-color:pink ;
+	margin-top:0px;
+}
+.abc{
+	margin-left:550px;
+	margin-right:200px; 
+}
+#col{
+	height:18px;
+	width:18px;
+}
+input(){
+	border:none;
+}
+#txt{
+    height:500px;
+    width: 1170px;
+    margin-right:50px;
+    margin-left:80px;
+}
+select{
+	margin-left: auto;
+	margin-right: auto;
+}
+#def{
+	margin-left:80px;
+}
+#h{
+	text-align:center; 
+}
+/*::selection { color:blue; background-color:royalblue; }*/
+/*::-moz-selection { color: red; background-color: yellow; }*/

@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<!--In CSS, you can specify font-weights other than normal and bold by using numeric font-weight values scaled from 100 to 900 (400 is the same as normal, and 700 is the same as bold). The style of a font is usually connected to an angle. ... Many font families have an italics version of the font.-->
+	<title>TEXTEDITOR</title>
+	<link rel="stylesheet" type="text/css" href="texteditor.css">
+	 <script type="text/javascript" href="texteditor.js">	
+       function family(){
+                r=document.getElementById("type").value
+                document.getElementById("txt").style.fontFamily=r;
+        }        
+       function fSize(){
+                w=document.getElementById("size").value;
+                document.getElementById("txt").style.fontSize=w;
+       }
+      function ftcolor(){
+                w1=document.getElementById("col").value;
+                document.getElementById("txt").style.color=w1;
+       }  
+      function bld(){
+                 document.getElementById("txt").style.fontWeight="bold";
+      } 
+      function ital(){
+                 document.getElementById("txt").style.fontStyle="italic";
+      } 
+      function under(){
+                 document.getElementById("txt").style.textDecoration="underline";
+      }
+      function plus(){
+      	        x=document.getElementById("size").selectedIndex;
+                y = document.getElementById("mySelect").options;              
+                 document.getElementById("txt").style.fontSize=struser+20;
+      } 
+    </script>
+</head>
+<body>
+	<h1 id="h">TEXT EDITOR</h1>
+	<div class="abc">
+	<select id="type" onchange="family()">
+		<option>calibri</option>
+		<option>@Adobe Fan Heiti Std B</option>
+		<option>@Adobe Heiti Std R</option>
+		<option>Arial Unicode MS</option>
+		<option>Calisto MT</option>
+		<option>Fixedsys</option>
+		<option>Goudy Stout</option>
+		<option>Cooper Black</option>
+		<option>Cambria Cambria</option>
+		<option>Book Antiqua</option>
+		<option>Arial</option>
+        <option>Verdana</option>
+        <option>Lucida Console</option>
+        <option>Courier New</option>
+        <option>Georgia</option>
+        <option>Times New Roman</option>
+	</select>
+	<select id="size" onchange="fSize()">
+		<option>20px</option>
+		<option>40px</option>
+		<option>60px</option>
+		<option>80px</option>
+		<option>100px</option>
+		<option>120px</option>
+		<option>140px</option>
+		<option>160px</option>
+		<option>180px</option>
+		<option>200px</option>
+		<option>220px</option>
+		<option>240px</option>
+		<option>260px</option>
+		<option>280px</option>
+		<option>300px</option>
+		<option>320px</option>
+	</select><br><br>
+	<input type="submit" id="A+" value="A+"  onclick="plus()">
+	<input type="submit" id="A-" value="A-">
+	<input type="submit" id="U" value="U" onclick="under()">
+	<input type="submit" id="i" value="i" onclick="ital()">
+	<input type="submit" id="B" value="B" onclick="bld()">
+    <input type="color" id="col" onchange="ftcolor()" >
+    <br><br>
+</div>
+<div id="def">TYPE HERE!</div>
+    <textarea id="txt"  ></textarea>  
+</body>
+</html>
